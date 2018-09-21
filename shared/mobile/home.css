@@ -1,0 +1,16 @@
+div.ui-header
+{
+    text-align: center;
+}
+
+div.ui-content
+{
+    color: white;
+    margin-top: 75px;
+}
+
+div.ui-content .ui-block-a, div.ui-content .ui-block-b, div.ui-content .ui-block-c
+{
+    margin-bottom: 20px;
+    text-align : center;
+}

@@ -1,0 +1,1020 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html, body
+{
+    height: 100%;
+}
+
+header, aside, figure, figcaption, footer
+{
+    /* Need for the browsers, which doesn't support HTML5 */
+    display: block;
+}
+
+table
+{
+    border-collapse: collapse;
+}
+
+hr
+{
+    border: none;
+    height: 1px;
+    background-color: rgb(224, 224, 224);
+    color: rgb(224, 224, 224);
+}
+
+.container
+{
+    color: rgb(80, 80, 80);
+    background-color: white;
+    margin: 0 auto 0 auto;
+    min-height: 100%;
+    width: 999px;
+    border: 1px solid rgb(224, 224, 224);
+}
+
+.header
+{
+    padding-top: 80px;
+    width: 100%;
+    height: 148px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header__link
+{
+    text-decoration: none;
+}
+
+.logo__container
+{
+    width: 999px;
+    text-align: center;
+    font-size: 13px;
+    font-style: italic;
+    margin: 0 auto 0 auto;
+}
+
+.logo__image
+{
+    width: 96px;
+    height: 129px;
+    cursor: pointer;
+}
+
+.menu
+{
+    height: 40px;
+
+    text-align: center;
+    margin-top: 70px;
+    padding-left: 124px;
+}
+
+.body
+{
+    text-align: center;
+    margin-top: 25px;
+    padding: 20px 25px;
+}
+
+.body__label
+{
+    text-align: left;
+}
+
+.slideshow__container
+{
+    width: 750px;
+    height: 400px;
+    margin-top: 45px;
+
+    overflow: hidden;
+    border: 0;
+}
+
+.footer__table
+{
+    font-size: 12px;
+    font-family: Helvetica, Arial, sans-serif;
+
+    margin: 0 auto 0 auto;
+}
+
+.footer__table__container
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer__table__label
+{
+    padding-right: 10px;
+}
+
+.footer__table__address__column
+{
+    padding: 10px;
+}
+
+.footer__table__sns__column
+{
+    text-align: right;
+}
+
+.copyright
+{
+    font-style: italic;
+    color: rgb(170, 170, 170);
+
+    padding: 20px;
+}
+
+.body__map__container
+{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.body__map__contents
+{
+    padding-top: 30px;
+}
+
+#thisYearEventPane,#nextYearEventPane
+{
+    text-align: left;
+}
+
+tr.event-date-border > td
+{
+    margin: 0;
+
+    padding-top: 15px;
+    border-bottom: 1px solid rgb(224, 224, 224) !important;
+}
+
+td.event-date-column
+{
+    width: 14px;
+    max-width: 14px;
+}
+
+td.event-week-column
+{
+    width: 50px;
+    max-width: 50px;
+}
+
+.january-image
+{
+    background-image: url("images/200x200/january.jpg");
+}
+
+.january-image:hover
+{
+    border-color: rgb(224, 224, 224);
+    color: black;
+    background-image: url("images/200x200/january_hovered.jpg");
+}
+
+.february-image
+{
+    background-image: url("images/200x200/february.jpg");
+}
+
+.february-image:hover
+{
+    border-color: rgb(224, 224, 224);
+    color: black;
+    background-image: url("images/200x200/february_hovered.jpg");
+}
+
+.march-image
+{
+    background-image: url("images/200x200/march.jpg");
+}
+
+.march-image:hover
+{
+    border-color: rgb(224, 224, 224);
+    color: black;
+    background-image: url("images/200x200/march_hovered.jpg");
+}
+
+.april-image
+{
+    background-image: url("images/200x200/april.jpg");
+}
+
+.april-image:hover
+{
+    border-color: rgb(224, 224, 224);
+    color: black;
+    background-image: url("images/200x200/april_hovered.jpg");
+}
+
+.may-image
+{
+    background-image: url("images/200x200/may.jpg");
+}
+
+.may-image:hover
+{
+    border-color: rgb(224, 224, 224);
+    color: black;
+    background-image: url("images/200x200/may_hovered.jpg");
+}
+
+.june-image
+{
+    background-image: url("images/200x200/june.jpg");
+}
+
+.june-image:hover
+{
+    border-color: rgb(224, 224, 224);
+    color: black;
+    background-image: url("images/200x200/june_hovered.jpg");
+}
+
+div.july-image
+{
+    background-image: url("images/200x200/july.jpg");
+}
+
+div.july-image:hover
+{
+    border-color: rgb(224, 224, 224);
+    color: black;
+    background-image: url("images/200x200/july_hovered.jpg");
+}
+
+div.august-image
+{
+    background-image: url("images/200x200/august.jpg");
+}
+
+div.august-image:hover
+{
+    border-color: rgb(224, 224, 224);
+    color: black;
+    background-image: url("images/200x200/august_hovered.jpg");
+}
+
+div.september-image
+{
+    background-image: url("images/200x200/september.jpg");
+}
+
+div.september-image:hover
+{
+    border-color: rgb(224, 224, 224);
+    color: black;
+    background-image: url("images/200x200/september_hovered.jpg");
+}
+
+div.october-image
+{
+    background-image: url("images/200x200/october.jpg");
+}
+
+div.october-image:hover
+{
+    border-color: rgb(224, 224, 224);
+    color: black;
+    background-image: url("images/200x200/october_hovered.jpg");
+}
+
+div.november-image
+{
+    background-image: url("images/200x200/november.jpg");
+}
+
+div.november-image:hover
+{
+    border-color: rgb(224, 224, 224);
+    color: black;
+    background-image: url("images/200x200/november_hovered.jpg");
+}
+
+div.december-image
+{
+    background-image: url("images/200x200/december.jpg");
+}
+
+div.december-image:hover
+{
+    border-color: rgb(224, 224, 224);
+    color: black;
+    background-image: url("images/200x200/december_hovered.jpg");
+}
+
+div.submenu-column
+{
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+
+    color: white;
+    border-color: white;
+    border-width: thin thin thin thin;
+    border-style: solid;
+
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    min-width: 135px;
+    width: 135px;
+    height: 135px;
+
+    cursor: pointer;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+div.empty-submenu-column
+{
+    min-width: 135px;
+    width: 135px;
+    height: 135px;
+
+    cursor: default;
+}
+
+.eng-font
+{
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+ul.main-list
+{
+    width: 100%;
+}
+
+ul.main-list > li
+{
+    width: 106px;
+    height: 34px;
+
+    position: relative;
+    float: left;
+
+    border-width: thin thin thin thin;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-color: rgb(224, 224, 224);
+
+    list-style: none;
+}
+
+ul.main-list > li:first-child, ul.main-list > li:nth-child(8n)
+{
+    border-left: 1px solid rgb(224, 224, 224);
+}
+
+ul.main-list li a
+{
+    color: rgb(80, 80, 80);
+    font-weight: lighter;
+
+    width: 97px;
+    float: left;
+
+    text-decoration: none;
+    text-align: center;
+    margin: 4px 4px 10px 4px;
+    white-space: nowrap;
+}
+
+ul.main-list li a:hover
+{
+    color: brown !important;
+}
+
+.selected-link
+{
+    color: brown !important;
+}
+
+.text--size-small
+{
+    font-size: 12px;
+}
+
+.text--size-medium
+{
+    font-size: 20px;
+}
+
+.jpn-font
+{
+    font-family: "KozGoPr6N-Regular", "小塚ゴシック Pr6N R", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, "メイリオ", Meiryo, sans-serif;
+}
+
+.color-saturday
+{
+    color: rgb(130, 130, 255);
+}
+
+.color-sunday
+{
+    color: rgb(228, 156, 174);
+}
+
+.auto-horizontal-margin
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.margin-top-small
+{
+    margin-top: 30px;
+}
+
+.margin-top-medium
+{
+    margin-top: 40px;
+}
+
+.margin-bottom-large
+{
+    margin-bottom: 60px;
+}
+
+.contents-width
+{
+    width: 750px;
+}
+
+.width-semi-full
+{
+    width: 80%;
+}
+
+.padding-bottom-large
+{
+    padding-bottom: 60px;
+}
+
+table.no-border-spacing
+{
+    border-spacing: 0;
+}
+
+tr.padding-right > td
+{
+    padding-right: 15px;
+}
+
+tr.padding-right-small > td
+{
+    padding-right: 10px;
+}
+
+tr.padding-top-small > td
+{
+    padding-top: 10px;
+}
+
+tr.padding-top-medium > td
+{
+    padding-top: 20px;
+}
+
+tr.padding-top-large > td
+{
+    padding-top: 40px;
+}
+
+tr.padding-bottom-small > td
+{
+    padding-bottom: 6px;
+}
+
+tr.padding-bottom-medium-large > td
+{
+    padding-bottom: 25px;
+}
+
+tr.padding-bottom-x-large > td
+{
+    padding-bottom: 40px;
+}
+
+.text-x-small
+{
+    font-size: 10px;
+}
+
+.text-small-medium
+{
+    font-size: 16px;
+}
+
+.text-large
+{
+    font-size: 30px;
+}
+
+.text-top
+{
+    vertical-align: top;
+}
+
+.text-right
+{
+    text-align: right;
+}
+
+.text-left
+{
+    text-align: left;
+}
+
+.text-center
+{
+    text-align: center;
+}
+
+
+td.label-column
+{
+    white-space: nowrap;
+    padding-right: 10px;
+}
+
+
+/* Sub Menu */
+
+div.staff-image
+{
+    background-image: url("images/200x200/staff.jpg");
+}
+
+div.staff-image:hover
+{
+    border-color: rgb(224, 224, 224);
+    color: black;
+    background-image: url("images/200x200/staff_hovered.jpg");
+}
+
+div.store-interior-image
+{
+    background-image: url("images/200x200/storeInterior.jpg");
+}
+
+div.store-interior-image:hover
+{
+    border-color: rgb(224, 224, 224);
+    color: black;
+    background-image: url("images/200x200/storeInterior_hovered.jpg");
+}
+
+div.dish-image
+{
+    background-image: url("images/200x200/dish.jpg");
+}
+
+div.dish-image:hover
+{
+    border-color: rgb(224, 224, 224);
+    color: black;
+    background-image: url("images/200x200/dish_hovered.jpg");
+}
+
+div.magazine-image
+{
+    background-image: url("images/200x200/magazine.jpg");
+}
+
+div.magazine-image:hover
+{
+    border-color: rgb(224, 224, 224);
+    color: black;
+    background-image: url("images/200x200/magazine_hovered.jpg");
+}
+
+div.daily-menu-image
+{
+    background-image: url("images/200x200/dailyMenu.jpg");
+}
+
+div.daily-menu-image:hover
+{
+    border-color: rgb(224, 224, 224);
+    color: black;
+    background-image: url("images/200x200/dailyMenu_hovered.jpg");
+}
+
+div.normal-menu-image
+{
+    background-image: url("images/200x200/normalMenu.jpg");
+}
+
+div.normal-menu-image:hover
+{
+    border-color: rgb(224, 224, 224);
+    color: black;
+    background-image: url("images/200x200/normalMenu_hovered.jpg");
+}
+
+div.a-la-carte-image
+{
+    background-image: url("images/200x200/aLaCarte.jpg");
+}
+
+div.a-la-carte-image:hover
+{
+    border-color: rgb(224, 224, 224);
+    color: black;
+    background-image: url("images/200x200/aLaCarte_hovered.jpg");
+}
+
+div.course-image
+{
+    background-image: url("images/200x200/course.jpg");
+}
+
+div.course-image:hover
+{
+    border-color: rgb(224, 224, 224);
+    color: black;
+    background-image: url("images/200x200/course_hovered.jpg");
+}
+
+div.beer-image
+{
+    background-image: url("images/200x200/beer.jpg");
+}
+
+div.beer-image:hover
+{
+    border-color: rgb(224, 224, 224);
+    color: black;
+    background-image: url("images/200x200/beer_hovered.jpg");
+}
+
+div.digestif-image
+{
+    background-image: url("images/200x200/digestif.jpg");
+}
+
+div.digestif-image:hover
+{
+    border-color: rgb(224, 224, 224);
+    color: black;
+    background-image: url("images/200x200/digestif_hovered.jpg");
+}
+
+div.sake-image
+{
+    background-image: url("images/200x200/sake.jpg");
+}
+
+div.sake-image:hover
+{
+    border-color: rgb(224, 224, 224);
+    color: black;
+    background-image: url("images/200x200/sake_hovered.jpg");
+}
+
+div.shochu-image
+{
+    background-image: url("images/200x200/shochu.jpg");
+}
+
+div.shochu-image:hover
+{
+    border-color: rgb(224, 224, 224);
+    color: black;
+    background-image: url("images/200x200/shochu_hovered.jpg");
+}
+
+div.other-drinks-image
+{
+    background-image: url("images/200x200/otherDrinks.jpg");
+}
+
+div.other-drinks-image:hover
+{
+    border-color: rgb(224, 224, 224);
+    color: black;
+    background-image: url("images/200x200/otherDrinks_hovered.jpg");
+}
+
+div.glass-wine-image
+{
+    background-image: url("images/200x200/glassWine.jpg");
+}
+
+div.glass-wine-image:hover
+{
+    border-color: rgb(224, 224, 224);
+    color: black;
+    background-image: url("images/200x200/glassWine_hovered.jpg");
+}
+
+div.sparkling-wine-image
+{
+    background-image: url("images/200x200/sparklingWine.jpg");
+}
+
+div.sparkling-wine-image:hover
+{
+    border-color: rgb(224, 224, 224);
+    color: black;
+    background-image: url("images/200x200/sparklingWine_hovered.jpg");
+}
+
+div.white-wine-image
+{
+    background-image: url("images/200x200/whiteWine.jpg");
+}
+
+div.white-wine-image:hover
+{
+    border-color: rgb(224, 224, 224);
+    color: black;
+    background-image: url("images/200x200/whiteWine_hovered.jpg");
+}
+
+div.rose-wine-image
+{
+    background-image: url("images/200x200/roseWine.jpg");
+}
+
+div.rose-wine-image:hover
+{
+    border-color: rgb(224, 224, 224);
+    color: black;
+    background-image: url("images/200x200/roseWine_hovered.jpg");
+}
+
+div.red-wine-image
+{
+    background-image: url("images/200x200/redWine.jpg");
+}
+
+div.red-wine-image:hover
+{
+    border-color: rgb(224, 224, 224);
+    color: black;
+    background-image: url("images/200x200/redWine_hovered.jpg");
+}
+
+div.wine-list-image
+{
+    background-image: url("images/200x200/wineList.jpg");
+}
+
+div.wine-list-image:hover
+{
+    border-color: rgb(224, 224, 224);
+    color: black;
+    background-image: url("images/200x200/wineList_hovered.jpg");
+}
+
+
+/* ContactInfo.css */
+
+iframe.contact-img
+{
+    width: 750px;
+    height: 400px;
+    overflow: hidden;
+    border: 0;
+}
+
+.copyright
+{
+    font-style: italic;
+    font-family: Helvetica, Arial, sans-serif;
+
+    color: rgb(170, 170, 170);
+}
+
+
+/* BeerControl.css */
+
+.gargery-link > img
+{
+    width: 55px;
+    padding-left: 10px;
+}
+
+
+/* ProfileControl.css */
+
+img.profile-image
+{
+    width: 160px;
+}
+
+
+/* PhotoControl.css */
+a.thumbnail-img:hover
+{
+    opacity: 0.5;
+}
+
+a.thumbnail-img > img
+{
+    width: 135px;
+    height: 135px;
+}
+
+
+/* RecommendedWineControl.css */
+tr.general-wine-row
+{
+    height: 60px;
+}
+
+tr.general-wine-row > td
+{
+    padding-bottom: 20px;
+}
+
+td.flag-col
+{
+    padding-top: 5px;
+}
+
+td.flag-col > img
+{
+    width: 45px;
+}
+
+.wine-name-col
+{
+    width: 600px;
+}
+
+.image--state-clickable
+{
+    cursor: pointer;
+    border: none;
+}
+
+
+/* ImageSlideControl.css */
+img.ad-image
+{   
+    position: relative;
+    cursor: pointer;
+
+    width: 284px;
+    height: 200px;
+
+    margin-left: 5px;
+    margin-right: 5px;
+
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+    filter: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org/2000/svg' height='0'><filter id='greyscale'><feColorMatrix type='matrix' values='0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0' /></filter></svg>#greyscale");
+}   
+
+img.ad-image:hover
+{
+    filter: none;
+    -webkit-filter: grayscale(0%);
+}
+
+div#imgContainer
+{   
+    width: 750px;
+    height: 240px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    white-space:nowrap;
+    overflow: hidden;
+}   
+
+
+/* RestaurantWineList.css */
+
+object.pdf-container
+{
+    width: 750px;
+    height: 600px;
+    border: 1px solid rgb(224, 224, 224);
+}
+
+.dish-name-col
+{
+    width: 650px;
+}
+
+html, body
+{
+    margin: 0;
+    padding: 0;
+}
+
+div#background-pane
+{
+    display: none;
+    background-color: #000000;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+div#dialog-pane
+{
+    display: none;
+    color: #FFFFFF;
+    position: absolute;
+    overflow: hidden;
+    width: 80%;
+    height: 90%;
+    text-align: center;
+
+    top: 5%;
+    left: 10%;
+    z-index: 10;
+}
+
+span#close-btn
+{
+    border: thin gray solid; 
+    width: 15px;
+
+    color: gray;
+    display: block;
+
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Century Gothic, sans-serif;
+}
+
+span#close-btn:hover
+{
+    color: #000000;
+    background-color: white;
+    cursor: pointer;
+}
+
+div#comment-pane
+{
+    display: none;
+    color: #FFFFFF;
+    background-color: #000000;
+    opacity: 0.5;    
+    position: absolute;
+    width: 80%;
+    height: 20%;
+    overflow-y: auto;
+
+    bottom: 0;
+    left: 10%;
+    z-index: 100;
+}
+
+div#outer-dialog-pane
+{
+    display: table;
+
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+
+div#inner-dialog-pane
+{
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    z-index: 10;
+}
+
+div#comment-pane p
+{
+    text-align: center;
+    word-wrap: break-word;
+    padding: 10px 100px 10px 100px;
+}
+
+table#dialog-table
+{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+

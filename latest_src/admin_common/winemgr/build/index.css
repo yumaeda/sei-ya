@@ -1,0 +1,142 @@
+﻿body
+{
+    font-family: "Kozuka Gothic Pro EL", "Kozuka Gothic Pro L", "Meiryo UI", sans-serif;
+}
+
+input
+{
+    padding: 0;
+    border: 0;
+    width: 40px;
+    height: 18px;
+}
+
+img
+{
+    width: 45px;
+    padding-top: 10px;
+}
+
+table
+{
+    border-collapse: collapse;
+}
+
+td
+{
+    height: 80px;
+    border: 2px solid rgb(224, 224, 224);
+    vertical-align: top;
+}
+
+td.firstCol
+{
+    text-align: center;
+}
+
+td.firstCol > input
+{
+    border: 1px solid;
+}
+
+td.secondCol
+{
+    width: 550px;
+    padding: 0;
+}
+
+td.thirdCol
+{
+    vertical-align: middle;
+    text-align: center;
+}
+
+input.vintageFld
+{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    width: 40px;
+}
+
+input.nameFld
+{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    width: 200px;
+}
+
+input.producerFld
+{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    width: 150px;
+}
+
+input.jpnNameFld
+{
+    font-size: 9px;
+    width: 175px;
+}
+
+input.jpnProducerFld
+{
+    font-size: 9px;
+    width: 175px;
+}
+
+span#itemNumber
+{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+}
+
+span.regionLabel
+{
+    font-size: 12px;
+}
+
+input.jpnRegionFld
+{
+    font-size: 9px;
+    width: 90px; 
+}
+
+input.cepageFld
+{
+    font-size: 9px;
+    width: 250px; 
+}
+
+input.commentFld
+{
+    font-size: 8px;
+    width: 450px;
+}
+
+input.priceFld
+{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    width: 50px;
+}
+
+input.quantityFld
+{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    width: 40px;
+}
+
+input.subtitleFld
+{
+    width: 200px;
+}
+
+img.buttonImage
+{
+    cursor: pointer;
+
+    margin: 5px;
+    width: 20px;
+}
+

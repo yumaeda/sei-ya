@@ -1,0 +1,125 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body, html
+{
+    height: 100%;
+    overflow: hidden;
+}
+
+figure
+{
+    display: block; /* Need for the browsers, which doesn't support HTML5 */
+    padding-top: 40px;
+}
+
+figcaption
+{
+    display: block; /* Need for the browsers, which doesn't support HTML5 */
+}
+
+figure figcaption
+{
+    color: rgb(110, 110, 110);
+    font-size: 13px;
+    font-style: italic;
+}
+
+figure > a img
+{
+}
+
+.middleDiv
+{
+    display: table-cell;
+    vertical-align: middle; 
+}
+
+.innerDiv
+{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+img
+{
+    border-style: none;
+}
+
+img.ofuroLogo
+{
+    height: 105px;
+}
+
+img.mitsugetsuLogo
+{
+    width: 100px;
+    height: 100px;
+}
+
+img.anywayLogo
+{
+    width: 160px;
+    height: 67px;
+}
+
+img.honeymoonLogo
+{
+    width: 160px;
+}
+
+img.anywayOnlineLogo
+{
+    width: 160px;
+    height: 40px;
+}
+
+img.companyLogo
+{
+    display: block;
+    margin-left: auto; 
+    margin-right: auto; 
+
+    width: 120px;
+}
+
+hr.linePadded
+{
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.leftDiv
+{
+    float: left;
+
+    width: 20%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-image: url("top_left.jpeg");
+}
+
+.centerDiv
+{
+    display: table;
+
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+
+.rightDiv
+{
+    float: left;
+
+    width: 20%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-image: url("top_right.jpeg");
+}
+

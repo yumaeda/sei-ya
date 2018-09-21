@@ -1,0 +1,149 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    width: 100%;
+    background-image: url("//anyway-grapes.jp/images/importers/finesse.jpg");
+    background-size: 120px 90px;
+
+    font-size: 11px;
+}
+
+header
+{
+    text-align: center;
+    background-color: white;
+    display: block;
+
+    font-size: 18px;
+    padding: 15px;
+
+    border: 1px solid rgb(224,224,224);
+    opacity: 0.95;
+}
+
+aside
+{
+    display: block;
+    width: 400px;
+    height: 1000px;
+
+    background-color: rgb(240, 240, 240);
+    float: left;
+    padding: 10px;
+
+    border: 1px solid rgb(224,224,224);
+    opacity: 0.95;
+}
+
+div.contents
+{
+    height: 1000px;
+
+    background-color: white;
+    overflow-y: scroll;
+    padding: 10px;
+
+    border: 1px solid rgb(224,224,224);
+    opacity: 0.95;
+}
+
+ul
+{
+    list-style-type: none;
+}
+
+li
+{
+    height: 80px;
+}
+
+li.selectedItem
+{
+    background-color: brown;
+}
+
+li.selectedItem a
+{
+    color: white;
+}
+
+div.valuePane
+{
+    width: 330px;
+    float: left;
+}
+
+div.pricePane
+{
+    width: 70px;
+    float: right;
+
+    white-space: nowrap;
+}
+
+table#candidateTable
+{
+    width: 100%;
+}
+
+td.imgCol
+{
+    text-align: center;
+}
+
+img.wineImg
+{
+    height: 150px;
+}
+
+div.selectButton
+{
+    width: 100px;
+    height: 30px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+
+    color: white;
+    background-color: green;
+    border: 1px solid rgb(224, 224, 224);
+
+    cursor: pointer;
+}
+
+span.producerSpan
+{
+    font-size: 9px;
+    font-style: italic;
+}
+
+div#totalPricePane
+{
+    margin-top: 25px;
+    font-size: 16px;
+    text-align: center;
+}
+
+div#checkoutPane
+{
+    display: none;
+    text-align: center;
+}
+
+div#checkoutBtn
+{
+    color: white;
+    background-color: green;
+    border: 1px solid rgb(224, 224, 224);
+
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+    padding: 15px;
+    margin: 15px auto 0 auto;
+}

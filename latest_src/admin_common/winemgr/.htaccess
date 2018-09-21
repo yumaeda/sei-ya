@@ -1,0 +1,9 @@
+AuthUserFile /home/seiya/.htpasswds/pwds
+AuthGroupFile /home/seiya/.htpasswds/groups
+AuthName "Photo Management of Ofuro Web site"
+AuthType Basic
+
+<Limit GET POST>
+require group ofuro_admin
+</Limit>
+

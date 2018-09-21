@@ -1,0 +1,84 @@
+img#refreshImg
+{
+    cursor: pointer;
+}
+
+table
+{
+    border-collapse: collapse;
+    margin-top: 25px;
+    border: 1px solid gray;
+}
+
+thead td, tfoot td
+{
+    background-color: rgb(64,128,128);
+    color: white;
+    text-align: center;
+}
+
+thead tr, tfoot tr 
+{
+    border: none;
+}
+
+tr.bottomPaddedRow > td
+{
+    padding-bottom: 50px;
+}
+
+thead input
+{
+    width: 400px;
+}
+
+td
+{
+    font-size: 12px;
+    padding-right: 15px;
+}
+
+tbody td
+{
+    padding-bottom: 10px;
+}
+
+td.producerCol
+{
+    width: 300px;
+}
+
+td.vintageCol
+{
+    width: 75px;
+    vertical-align: top;
+}
+
+td.nameCol
+{
+    width: 600px;
+}
+
+td.priceCol
+{
+    width: 40px;
+    padding-right: 0;
+    text-align: center;
+}
+
+td.imgCol
+{
+    text-align: right;
+}
+
+img
+{
+    width: 25px;
+    height: 15px;
+}
+
+img:hover
+{
+    cursor: pointer;
+}
+

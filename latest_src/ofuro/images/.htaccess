@@ -1,0 +1,8 @@
+deny from all
+
+<files ~ "^\w+\.(gif|jpe?g|png)$">
+
+order deny,allow
+allow from all
+
+</files>

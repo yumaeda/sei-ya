@@ -1,0 +1,9 @@
+AuthUserFile /home/seiya/.htpasswds/pwds
+AuthGroupFile /home/seiya/.htpasswds/groups
+AuthName "Administration of Mitsu-Getsu Web site"
+AuthType Basic
+
+<Limit GET POST>
+require group mitsugetsu_contributor
+</Limit>
+

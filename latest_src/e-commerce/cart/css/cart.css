@@ -1,0 +1,268 @@
+.engFont
+{
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header
+{
+    text-align: center;
+    height: 85px;
+
+    background-image: url("https://anyway-grapes.jp/cart_images/logo_bottom.png");
+    background-position: center bottom;
+    background-repeat: repeat-x;
+
+    padding-top: 30px;
+    margin-bottom: 50px;
+
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+}
+
+div#giftPane
+{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+div.progressPane
+{
+    font-size: 16px;
+
+    border: 1px solid rgb(224, 224, 224);
+
+    padding: 15px;
+    color: rgb(224, 224, 224);
+}
+
+div.progressPane > span
+{
+    margin: 10px;
+}
+
+img.logoImg
+{
+    width: 300px;
+    margin-top: 15px;
+}
+
+.currentProgress
+{
+    color: rgb(69, 16, 1);
+}
+
+.lineThin
+{
+    border: none;
+    height: 1px;
+    background-color: rgb(224, 224, 224);
+    color: rgb(224, 224, 224);
+
+    margin-top: 2px;
+    margin-bottom: 25px;
+}
+
+.textNoWrap
+{
+    white-space: nowrap;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    color: rgb(80, 80, 80);
+    font-family: "Kozuka Gothic Pro L", "Meiryo UI", sans-serif;
+    font-size: 12px;
+}
+
+div.contents
+{
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+}
+
+footer
+{
+    color: gray;
+    width: 750px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+table.cartTable
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.cartTable tbody td
+{
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+
+    border: 1px solid rgb(224, 224, 224);
+}
+
+thead tr,tfoot tr
+{
+    color: rgb(69,16,1);
+    background-color: rgb(247,242,247);
+    text-align: center;
+}
+
+thead td,tfoot td
+{
+    border: 1px solid rgb(224, 224, 224);
+    padding: 5px;
+}
+
+textarea
+{
+    border: 1px solid rgb(224, 224, 224);
+}
+
+.requiredCol
+{
+    color: red;
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+td.nameCol
+{
+    text-align: left !important;
+}
+
+td.addressCol
+{
+    text-align: left !important;
+}
+
+td.addressCol > input
+{
+    width: 100%;
+}
+
+td.operationCol
+{
+    font-size: 10px;
+    white-space: nowrap;
+}
+
+td.priceCol
+{
+    white-space: nowrap;
+}
+
+td.imgCol
+{
+    padding: 2px;
+}
+
+td.imgCol img
+{
+    width: 80px;
+}
+
+td.errorCol
+{
+    color: red;
+}
+
+td.labelCol
+{
+    width: 25%;
+    text-align: left !important;
+}
+
+td.inputCol, td.valueCol
+{
+    width: 75%;
+    text-align: left !important;
+}
+
+span.exampleSpan
+{
+    color: rgb(150, 150, 150);
+}
+
+span.errorSpan
+{
+    color: red;
+    font-size: 13px;
+}
+
+input#qtyFld
+{
+    text-align: center;
+    width: 33px;
+}
+
+input#updateBtn
+{
+    font-size: 10px;
+    margin: 5px;
+    height: 16px;
+    width: 38px;
+
+    color: rgb(69,16,1);
+    border: none;
+    background-color: rgb(247,242,247);
+    cursor: pointer;
+}
+
+input.nextBtn
+{
+    padding: 3px;
+    width: 80px;
+}
+
+fieldset
+{
+    padding: 5px;
+    border: 1px solid rgb(224, 224, 224);
+}
+
+table#cardTable
+{
+    border-collapse: collapse;
+}
+
+table#cardTable td
+{
+    text-align: left;
+}
+
+img#cardLogos
+{
+    width: 300px;
+}
+
+input#confirmBtn, input#nextBtn, img#backBtn
+{
+    padding: 10px;
+    width: 130px;
+    cursor: pointer;
+}
+
+input#confirmBtn:hover, input#nextBtn:hover, img#backBtn:hover
+{
+    opacity: 0.5;
+}
+

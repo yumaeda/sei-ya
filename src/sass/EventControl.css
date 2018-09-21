@@ -1,0 +1,169 @@
+#thisYearEventPane,#nextYearEventPane
+{
+    text-align: left;
+}
+
+tr.event-date-border > td
+{
+    margin: 0;
+
+    padding-top: 15px;
+    border-bottom: 1px solid rgb(224, 224, 224) !important;
+}
+
+td.event-date-column
+{
+    width: 14px;
+    max-width: 14px;
+}
+
+td.event-week-column
+{
+    width: 50px;
+    max-width: 50px;
+}
+
+.january-image
+{
+    background-image: url("images/200x200/january.jpg");
+}
+
+.january-image:hover
+{
+    border-color: rgb(224, 224, 224);
+    color: black;
+    background-image: url("images/200x200/january_hovered.jpg");
+}
+
+.february-image
+{
+    background-image: url("images/200x200/february.jpg");
+}
+
+.february-image:hover
+{
+    border-color: rgb(224, 224, 224);
+    color: black;
+    background-image: url("images/200x200/february_hovered.jpg");
+}
+
+.march-image
+{
+    background-image: url("images/200x200/march.jpg");
+}
+
+.march-image:hover
+{
+    border-color: rgb(224, 224, 224);
+    color: black;
+    background-image: url("images/200x200/march_hovered.jpg");
+}
+
+.april-image
+{
+    background-image: url("images/200x200/april.jpg");
+}
+
+.april-image:hover
+{
+    border-color: rgb(224, 224, 224);
+    color: black;
+    background-image: url("images/200x200/april_hovered.jpg");
+}
+
+.may-image
+{
+    background-image: url("images/200x200/may.jpg");
+}
+
+.may-image:hover
+{
+    border-color: rgb(224, 224, 224);
+    color: black;
+    background-image: url("images/200x200/may_hovered.jpg");
+}
+
+.june-image
+{
+    background-image: url("images/200x200/june.jpg");
+}
+
+.june-image:hover
+{
+    border-color: rgb(224, 224, 224);
+    color: black;
+    background-image: url("images/200x200/june_hovered.jpg");
+}
+
+div.july-image
+{
+    background-image: url("images/200x200/july.jpg");
+}
+
+div.july-image:hover
+{
+    border-color: rgb(224, 224, 224);
+    color: black;
+    background-image: url("images/200x200/july_hovered.jpg");
+}
+
+div.august-image
+{
+    background-image: url("images/200x200/august.jpg");
+}
+
+div.august-image:hover
+{
+    border-color: rgb(224, 224, 224);
+    color: black;
+    background-image: url("images/200x200/august_hovered.jpg");
+}
+
+div.september-image
+{
+    background-image: url("images/200x200/september.jpg");
+}
+
+div.september-image:hover
+{
+    border-color: rgb(224, 224, 224);
+    color: black;
+    background-image: url("images/200x200/september_hovered.jpg");
+}
+
+div.october-image
+{
+    background-image: url("images/200x200/october.jpg");
+}
+
+div.october-image:hover
+{
+    border-color: rgb(224, 224, 224);
+    color: black;
+    background-image: url("images/200x200/october_hovered.jpg");
+}
+
+div.november-image
+{
+    background-image: url("images/200x200/november.jpg");
+}
+
+div.november-image:hover
+{
+    border-color: rgb(224, 224, 224);
+    color: black;
+    background-image: url("images/200x200/november_hovered.jpg");
+}
+
+div.december-image
+{
+    background-image: url("images/200x200/december.jpg");
+}
+
+div.december-image:hover
+{
+    border-color: rgb(224, 224, 224);
+    color: black;
+    background-image: url("images/200x200/december_hovered.jpg");
+}
+

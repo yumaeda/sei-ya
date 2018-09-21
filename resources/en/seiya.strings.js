@@ -1,0 +1,27 @@
+﻿var Strings =
+{
+    'ADMIN_PAGE_STR':                   'Administration Page',
+    'ANYWAY_STR':                       'Conceptual Wine Boutique Anyway Grapes', 
+    'HONEYMOON_STR':                    'Wine Tasting Space Honey Moon',
+    'HIMAWARI_STR':                     'Himawari',
+    'MITSUGETSU_STR':                   'Mitsu-Getsu',
+    'OFURO_STR':                        'Izakaya Ofuro',
+    'PRINT_WINELIST_STR':               'Print out wine list',
+    'SEND_ORDER_CONFIRMATION_MAIL_STR': 'Send an order confirmation mail',
+    'CREATE_RECOMMENDATION_LIST_STR':   'Create recommendation list',
+    'PRINT_PRICETAG_STR':               'Print out price tag',
+    'PURCHASE_HISTORY_MGR_STR':         'Manage Purchase Histories',
+    'REGISTER_PRODUCER_INFO':           'Register Producer Info',
+    'MANAGE_DB_STR':                    'Manage databases',
+    'SHOW_WINE_INFO_STR':               'Show Wine Info',
+    'RESERVE_WINES_STR':                'Reserve wines',
+    'MITSUGETSU_GOODS_ISSUE_STR':       'Goods Issue to Mitsu-Getsu',
+    'MANAGE_ONLINE_INVENTORY_STR':      'Manage online inventory',
+    'MANAGE_WINELIST_STR':              'Manage wine list',
+    'MANAGE_ORDER_STR':                 'Manage orders',
+    'MODIFY_DAILY_MENU_STR':            'Modify daily menu',
+    'PHOTO_UPLOAD_STR':                 'Upload photo',
+    'CHECK_SOLD_OUT_WINE_STR':          'Check soldout wines',
+    'UPDATE_TASTING_INFO_STR':          'Update tasting information',
+    'SELECT_SITE_MSG':                  'Select the Web site.'
+};

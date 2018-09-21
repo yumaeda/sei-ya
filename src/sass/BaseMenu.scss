@@ -1,0 +1,63 @@
+$brown:       brown !important;
+$borderColor: rgb(224, 224, 224);
+$engFont:     Helvetica, Arial, sans-serif;
+
+.eng-font
+{
+    font-family: $engFont;
+}
+
+ul.main-list
+{
+    width: 100%;
+
+    > li
+    {
+        width: 106px;
+        height: 34px;
+
+        position: relative;
+        float: left;
+
+        border:
+        {
+            width: thin thin thin thin;
+            style: solid;
+            top: none;
+            left: none;
+            color: $borderColor;
+        }
+
+        list-style: none;
+
+        &:first-child, &:nth-child(8n)
+        {
+            border-left: 1px solid $borderColor;
+        }
+    }
+
+    li a
+    {
+        color: rgb(80, 80, 80);
+        font-weight: lighter;
+
+        width: 97px;
+        float: left;
+
+        text-decoration: none;
+        text-align: center;
+        margin: 4px 4px 10px 4px;
+        white-space: nowrap;
+
+        &:hover
+        {
+            color: $brown;
+        }
+    }
+}
+
+.selected-link
+{
+    color: $brown;
+}
+

@@ -1,0 +1,43 @@
+.eng-font {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+ul.main-list {
+  width: 100%;
+}
+
+ul.main-list > li {
+  width: 106px;
+  height: 34px;
+  position: relative;
+  float: left;
+  border-width: thin thin thin thin;
+  border-style: solid;
+  border-top: none;
+  border-left: none;
+  border-color: #e0e0e0;
+  list-style: none;
+}
+
+ul.main-list > li:first-child, ul.main-list > li:nth-child(8n) {
+  border-left: 1px solid #e0e0e0;
+}
+
+ul.main-list li a {
+  color: #505050;
+  font-weight: lighter;
+  width: 97px;
+  float: left;
+  text-decoration: none;
+  text-align: center;
+  margin: 4px 4px 10px 4px;
+  white-space: nowrap;
+}
+
+ul.main-list li a:hover {
+  color: brown !important;
+}
+
+.selected-link {
+  color: brown !important;
+}

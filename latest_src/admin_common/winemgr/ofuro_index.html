@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+        <title>Wine Menu Generation Tool</title>
+        <script type="text/javascript">
+
+        document.createElement('header');
+
+        </script>
+        <link rel="stylesheet" type="text/css" href="./index.min.css" />
+    </head>
+    <body>
+        <header>
+        </header>
+        <form action="winelist.php" method="POST">
+            <select id="pageSelect" name="page">
+                <option value="-1" disabled="disabled" selected="selected">Select a page.</option>
+                <option value="2">no.2 / Wine by the Glass</option>
+                <option value="3">no.3 / Recommended Bottled Wine</option>
+                <option value="9">no.9 / Sparkling Wine & Champagne</option>
+                <option value="10">no.10 / Sparkling Wine & Champagne</option>
+                <option value="11">no.11 / Ros&eacute;</option>
+                <option value="12">no.12 / White Wine</option>
+                <option value="13">no.13 / White Wine</option>
+                <option value="14">no.14 / White Wine</option>
+                <option value="15">no.15 / White Wine</option>
+                <option value="16">no.16 / Red Wine</option>
+                <option value="17">no.17 / Red Wine</option>
+                <option value="18">no.18 / Red Wine</option>
+                <option value="19">no.19 / Red Wine</option>
+                <option value="20">no.20 / Red Wine</option>
+                <option value="21">no.21 / Premium Wine</option>
+                <option value="22">no.22 / Premium Wine</option>
+            </select>
+            <div class="contents">
+            </div>
+            <button id="printBtn" type="submit" style="display:none;">Print</button>
+        </form>
+    </body>
+</html>
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="./index.min.js"></script>
+

@@ -1,0 +1,44 @@
+$engFont:   Helvetica, Arial, sans-serif;
+$lineSize:  135px;
+$menuColor: white;
+
+div.submenu-column
+{
+    font:
+    {
+        family: $engFont;
+        weight: bold;
+    }
+
+    color: $menuColor;
+    border:
+    {
+        color: $menuColor;
+        width: thin thin thin thin;
+        style: solid;
+    }
+
+    background:
+    {
+        repeat: no-repeat;
+        size: 100% 100%;
+    }
+
+    min-width: $lineSize;
+    width: $lineSize;
+    height: $lineSize;
+
+    cursor: pointer;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+div.empty-submenu-column
+{
+    min-width: $lineSize;
+    width: $lineSize;
+    height: $lineSize;
+
+    cursor: default;
+}
+

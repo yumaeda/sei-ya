@@ -1,0 +1,63 @@
+img.homeLogo
+{
+    height: 129px;
+    width: 129px;
+    cursor: pointer;
+}
+
+td.wineRegionFld
+{
+    width: 46%;
+}
+
+
+/* Mitsu-Getsu specific Sub Menu */
+
+div.beerImage
+{
+    background-image: url("images/200x200/beer.jpg");
+}
+
+div.beerImage:hover
+{
+    border-color: rgb(224, 224, 224);
+    color: black;
+    background-image: url("images/200x200/beer_hovered.jpg");
+}
+
+div.aLaCarteImage
+{
+    background-image: url("images/200x200/aLaCarte.jpg");
+}
+
+div.aLaCarteImage:hover
+{
+    border-color: rgb(224, 224, 224);
+    color: black;
+    background-image: url("images/200x200/aLaCarte_hovered.jpg");
+}
+
+div.courseImage
+{
+    background-image: url("images/200x200/course.jpg");
+}
+
+div.courseImage:hover
+{
+    border-color: rgb(224, 224, 224);
+    color: black;
+    background-image: url("images/200x200/course_hovered.jpg");
+}
+
+div.digestifImage
+{
+    background-image: url("images/200x200/digestif.jpg");
+}
+
+div.digestifImage:hover
+{
+    border-color: rgb(224, 224, 224);
+    color: black;
+    background-image: url("images/200x200/digestif_hovered.jpg");
+}
+

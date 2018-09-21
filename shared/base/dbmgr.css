@@ -1,0 +1,109 @@
+body
+{
+    margin: 0;
+}
+
+header
+{
+    display: block; /* Need for the browsers, which doesn't support HTML5 */
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    text-align: center;
+    background-color: rgb(213, 213, 255);
+}
+
+header a
+{
+    color: rgb(80, 80, 80);
+}
+
+header a:hover
+{
+    color: brown;
+}
+
+aside
+{
+    display: block; /* Need for the browsers, which doesn't support HTML5 */
+    width: 100%;
+    padding-top: 20px;
+    text-align: center;
+}
+
+div
+{
+    padding-top: 20px;
+}
+
+table
+{
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+tr.dbmgrRow:nth-child(odd)
+{
+    background-color: rgb(245, 245, 245);
+}
+
+tr.dbmgrRow:nth-child(even)
+{
+    background-color: white;
+}
+
+li a
+{
+    margin-right: 40px;
+    text-decoration: none;
+}
+
+li input
+{
+    margin-right: 1px;
+}
+
+ul.menuList
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.menuList li
+{
+    display: inline;
+}
+
+.selectedMenu
+{
+    color: brown;
+    font-weight: bold;
+}
+
+.checkBoxCol
+{
+    width: 10px;
+}
+
+.smallText
+{
+    padding: 3px;
+    font-size: 11px;
+}
+
+.mediumText
+{
+    padding: 3px;
+    font-size: 13px;
+}
+
+img.adminHomeImg
+{
+    width: 25px;
+    height: 25px;
+    float: left;
+
+    padding-left: 20px;
+}
+

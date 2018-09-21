@@ -1,0 +1,13 @@
+a.paginationLink
+{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+td.paginatedTableCell
+{
+    border: 1px dashed rgb(226, 226, 226);
+    width: 235px;
+    height: 235px;
+}
+

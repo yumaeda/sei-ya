@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+        <title>Wine Menu Generation Tool</title>
+        <script type="text/javascript">
+
+        document.createElement('header');
+
+        </script>
+        <link rel="stylesheet" type="text/css" href="./winemgr.min.css" />
+    </head>
+    <body>
+        <header>
+        </header>
+        <form action="./winelist.php" method="POST">
+            <select id="pageSelect" name="page">
+                <option value="-1" disabled="disabled" selected="selected">Select a page.</option>
+                <option value="2">no.2 / Wine by the Glass</option>
+                <option value="3">no.3 / Recommended Bottled Wine</option>
+                <option value="9">no.9 / Sparkling Wine & Champagne</option>
+                <option value="10">no.10 / Sparkling Wine & Champagne</option>
+                <option value="11">no.11 / Sparkling Wine & Champagne</option>
+                <option value="12">no.12 / Ros&eacute;</option>
+                <option value="13">no.13 / White Wine</option>
+                <option value="14">no.14 / White Wine</option>
+                <option value="15">no.15 / White Wine</option>
+                <option value="16">no.16 / Red Wine</option>
+                <option value="17">no.17 / Red Wine</option>
+                <option value="18">no.18 / Red Wine</option>
+                <option value="19">no.19 / Red Wine</option>
+                <option value="20">no.20 / Red Wine</option>
+            </select>
+            <div class="contents">
+            </div>
+            <button id="printBtn" type="submit" style="display:none;">Print</button>
+        </form>
+    </body>
+</html>
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+<script type="text/javascript" src="./winemgr.min.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function()
+{
+    RecommendedWineContents.siteName = 'mitsu-getsu';
+    RecommendedWineContents.dbTable  = 'mitsugetsu_recommended_wines';
+
+    loadResourceStrings('{0}/{1}/resources'.format(getRootFolderUrl(), RecommendedWineContents.siteName));
+    $('select#pageSelect').change(RecommendedWineContents.onPageSelectChange);
+
+    var imgTag = new ImageTag('{0}/{1}/images/adminHome.png'.format(getRootFolderUrl(), RecommendedWineContents.siteName));
+    imgTag.addClass('adminHomeImg');
+
+    $('header').html('<a href="{0}/admin_home.html">{1}</a>'.format(getRootFolderUrl(), imgTag.toHtml()));
+});
+
+</script>
+

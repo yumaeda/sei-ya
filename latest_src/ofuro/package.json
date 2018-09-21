@@ -1,0 +1,12 @@
+{
+  "name": "ofuro",
+  "version": "1.0.0",
+  "description": "Ofuro Home Page",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify ./build/index.js -t babelify --outfile ./build/index.js",
+    "minify": "minify --output ./build/index.min.js ./build/index.js"
+  },
+  "author": "Yukitaka Maeda",
+  "license": "ISC"
+}

@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+        <title>Full Wine List</title>
+        <script type="text/javascript">
+
+        document.createElement('header');
+        document.createElement('footer');
+
+        </script>
+        <link rel="stylesheet" type="text/css" href="full-winelist.min.css" />
+    </head>
+    <body>
+        <img id="refreshImg" src="refresh.png" alt="Refresh Winelist" />
+        <form action="full-winelist.php" method="POST">
+            <header>
+                <input type="hidden" name="page_count" value="0" />
+            </header>
+            <div id="contents">
+            </div>
+            <footer>
+                <select id="pageSelect" name="pageToPrint">
+                </select>
+                <input id="submitBtn" type="submit" value="Print" />
+            </footer>
+        </form>
+    </body>
+</html>
+
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script type="text/javascript" src="./full-winelist.min.js"></script>
+

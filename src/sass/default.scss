@@ -1,0 +1,30 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html, body
+{
+    height: 100%;
+}
+
+header, aside, figure, figcaption, footer
+{
+    /* Need for the browsers, which doesn't support HTML5 */
+    display: block;
+}
+
+table
+{
+    border-collapse: collapse;
+}
+
+hr
+{
+    border: none;
+    height: 1px;
+    background-color: rgb(224, 224, 224);
+    color: rgb(224, 224, 224);
+}
+
