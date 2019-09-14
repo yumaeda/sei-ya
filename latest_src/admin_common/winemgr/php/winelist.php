@@ -9,6 +9,9 @@ require_once("../dbutils.php");
 ob_get_clean();
 $mysqli = connectToMySql();
 
+$apiUri = 'http://anyway-grapes.jp/get_tax_rate.php';
+$taxRate = (1 + file_get_contents($apiUri));
+
 function getPostValueForSql($strKey)
 {
     $strValue = '';
@@ -258,7 +261,7 @@ if (($pageNumber == 2) || ($pageNumber == 3) || ($pageNumber == 9999) || ($pageN
 
             // Draws price text.
             $strPrice           = number_format($price) . 'yen';
-            $strTaxedPrice      = '[税込' . number_format($price * 1.08) . 'yen]';
+            $strTaxedPrice      = '[税込' . number_format($price * $taxRate) . 'yen]';
             $strPriceWidth      = $pdf->GetStringWidth($strPrice, 'helvetica', '', 9);
             $strTaxedPriceWidth = $pdf->GetStringWidth($strTaxedPrice, $kozGoProL, 'L', 6);
 
@@ -351,7 +354,7 @@ else
 
             // Draws price text.
             $strPrice           = number_format($price) . 'yen';
-            $strTaxedPrice      = '[税込' . number_format($price * 1.08) . 'yen]';
+            $strTaxedPrice      = '[税込' . number_format($price * $taxRate) . 'yen]';
             $strPriceWidth      = $pdf->GetStringWidth($strPrice, 'helvetica', '', 9);
             $strTaxedPriceWidth = $pdf->GetStringWidth($strTaxedPrice, 'kozgopromedium', '', 6);
             $pdf->SetFont("helvetica", "", 9);
