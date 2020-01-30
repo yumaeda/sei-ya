@@ -1,21 +1,6 @@
 <?php
-
-/*
-
-$strUserAgent = $_SERVER['HTTP_USER_AGENT'];
-
-// Redirect iPhone/iPod visitors
-if(strpos($strUserAgent, "Android") ||
-   strpos($strUserAgent, "iPhone") ||
-   strpos($strUserAgent, "iPod"))
-{
-    header("Location: mobile/index.html");
-}
-
-*/
-
+    // TODO: Change this page to index.html.
 ?>
-
 
 <!DOCTYPE html>
 <html>
@@ -51,25 +36,11 @@ if(strpos($strUserAgent, "Android") ||
                         <figcaption>Since 1994</figcaption>
                     </figure>
                     <figure>
-                        <a href="mitsu-getsu/index.html">
-                            <img class="mitsugetsuLogo" src="mitsu-getsu/images/logo.png" />
-                        </a>
-                        <figcaption>Since 2007</figcaption>
-                    </figure>
-                    <figure>
                         <a href="http://anyway-grapes.jp">
                             <img class="anywayLogo" src="anyway-grapes/images/logo.png" />
                         </a>
                         <figcaption>Since 2011</figcaption>
                     </figure>
-                    <figure>
-                        <a href="honeymoon/index.html">
-                            <img class="honeymoonLogo" src="honeymoon/images/logo.png" />
-                        </a>
-                        <figcaption>Since 2014</figcaption>
-                    </figure>
-                    <hr class="lineThin linePadded" />
-                    <img class="companyLogo" src="seiya_logo.png" />
               </div>
            </div>
         </div>
